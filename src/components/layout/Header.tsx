@@ -12,15 +12,15 @@ export function Header() {
         </Link>
         <ul className='flex gap-x-10'>
             <li className='text-lg'>
-            <Link href={"/Categorys/female"}> 
+            <Link href={"/category/female"}> 
             Female
             </Link>
             </li>
             <li className='text-lg'>
-              <Link href={"/Categorys/male"}> Male</Link>
+              <Link href={"/category/male"}> Male</Link>
               </li>
             <li className='text-lg'>
-              <Link href={"/Categorys/kids"}>Kids</Link>
+              <Link href={"/category/kids"}>Kids</Link>
               </li>
             <li className='text-lg'>
               <Link href={"/Products"}>All Products</Link></li>

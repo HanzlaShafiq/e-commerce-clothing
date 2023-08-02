@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <section className='flex items-center flex-col gap-y-10 lg:flex-row '>
         <div className='flex-1'>
-        <Badge className='py-3 px-6  bg-blue-300 text-blue-600 '>70%</Badge>
+        <Badge className='py-3 px-6 text-xl bg-blue-100 text-blue-600 rounded-lg'>Sale 70%</Badge>
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mt-7">
            An Industrial Take on Streetwear
     </h1>

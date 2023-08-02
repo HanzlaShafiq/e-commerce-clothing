@@ -16,6 +16,7 @@ const result = getProductsByCategory(params.slug);
   <ProductCard
    key={product.id} 
    tital={product.name}
+   type={product.type}
     category={product.category}
      price={product.price} 
      Img={product.image as StaticImageData}

@@ -16,6 +16,7 @@ export default function ProductList() {
      productsChecks.map((product)=>(
      <ProductCard
       key={product.id} 
+      type={product.type}
       tital={product.name}
        category={product.category}
         price={product.price} 

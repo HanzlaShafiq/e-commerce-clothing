@@ -13,75 +13,86 @@ import m2 from "/public/m2.png"
 export const Products:Product[] =[
     {
     id:1,
-    name:"Product 1",
+    name:"Brushed Raglan Sweatshirt",
+    type:"Sweater",
     category: "female",
-    price:10,
+    price:195,
     image:f1
 },
 {
     id:2,
-    name:"Product 2",
+    name:"Cameryn Sash Tie Dress",
+    type:"Dress",
     category: "female",
-    price:20,
+    price:545,
     image:f2
 },
 {
     id:3,
-    name:"Product 3",
+    name:"Flex Sweatshirt",
+    type:"Sweater",
     category: "female",
-    price:30,
+    price:175,
     image:f3
 },
 {
     id:4,
-    name:"Product 4",
+    name:"Flex Sweatpants",
+    type:"Pants",
     category: "female",
-    price:40,
+    price:175,
     image:f4
 },
 {
     id:5,
-    name:"Product 5",
+    name:"Pink Fleece Sweatpants",
+    type:"Pants",
     category: "female",
-    price:40,
+    price:195,
     image:f5
 },
 {
     id:6,
-    name:"Product 4",
+    name:"Lite Sweatpants",
+    type:"Pants",
     category: "female",
-    price:40,
+    price:150,
     image:f6
 },
 {
     id:7,
-    name:"Product 1",
+    name:"Imperial Alpaca Hoodie",
+    type:"Jackets",
     category: "female",
-    price:10,
+    price:525,
     image:f7
 }, {
     id:8,
-    name:"Product 1",
+    name:"Muscle Tank",
+    type:"T Shirts",
     category: "female",
-    price:10,
+    price:75,
     image:f8
 }, {
     id:9,
-    name:"Product 1",
+    name:"Brushed Bomber",
+    type:"Jackets",
     category: "female",
-    price:10,
+    price:225,
     image:f9
 }, {
     id:10,
-    name:"Product 1",
+    name:"Flex Push Button Bomber",
+    type:"Jackets",
     category: "male",
-    price:10,
+    price:225,
     image:m1
 }, {
     id:11,
-    name:"Product 1",
+    name:"Raglan Sweatshirt",
+    type:"Sweater",
     category: "male",
-    price:10,
+    price:195,
     image:m2
 },
 

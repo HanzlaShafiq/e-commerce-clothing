@@ -4,6 +4,7 @@ import { Heart } from "lucide-react"
 import Hero from '@/views/Hero'
 import ProductList from '@/views/ProductList'
 import Promotion from '@/views/Promotion'
+import NewsLater from '@/views/NewsLater'
 
 
 export default function Home() {
@@ -12,6 +13,8 @@ export default function Home() {
    <Hero />
    <Promotion />
    <ProductList />
+   <NewsLater />
+  
     </div>
   )
 }

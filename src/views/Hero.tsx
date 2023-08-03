@@ -17,7 +17,7 @@ export default function Hero() {
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mt-7">
            An Industrial Take on Streetwear
     </h1>
-    <p className="leading-7 [&:not(:first-child)]:mt-6">
+    <p className="leading-7 [&:not(:first-child)]:mt-6 w-80">
     Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits
     </p>
     <Button className='mt-4 bg-black '>start shoping</Button>
@@ -34,7 +34,7 @@ export default function Hero() {
     </ul>
         </div>
         <div className='flex-1'>
-            <Image src={heroImg} alt='heroImg' />
+            <Image className='bg-clip-content p-6 bg-pink-200 rounded-full' src={heroImg} alt='heroImg' />
 
         </div>
     </section>

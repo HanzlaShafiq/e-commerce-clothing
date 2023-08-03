@@ -8,7 +8,7 @@ import { Linkedin } from 'lucide-react'
 
 function Footer() {
   return (
-    <section>
+    <section >
     <div className=' sm:flex justify-evenly flex-col lg:flex-row my-20 gap-x-20 '>
       <ul className='flex flex-col gap-y-3'>
         <li>
@@ -46,7 +46,7 @@ function Footer() {
       </ul>
       </div>
       <div>
-      <hr className='text-black'/>
+      <hr className='border-black'/>
       <ul className='flex justify-center items-center text-end gap-32 my-10'>
         <li>
         <p>Copyright &copy; 2022 <strong> Dine Market</strong></p>

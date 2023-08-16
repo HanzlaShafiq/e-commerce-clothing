@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductCard from '@/components/layout/ProductCard'
+import ProductCard from '@/components/ProductCard'
 import { Products } from '@/utils/mock'
 import { StaticImageData } from 'next/image'
 
@@ -11,6 +11,7 @@ export default function ProductList() {
       Products.map((product)=>(
       <ProductCard
        key={product.id} 
+       type={product.type}
        tital={product.name}
         category={product.category}
          price={product.price} 

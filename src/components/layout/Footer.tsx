@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "/public/logo.webp"
+import Logo from "/public/Logo.webp"
 import Image from 'next/image'
 import Link from 'next/link'
 import { Twitter } from 'lucide-react'
@@ -12,7 +12,7 @@ function Footer() {
     <div className=' sm:flex justify-evenly flex-col lg:flex-row my-20 gap-x-20 '>
       <ul className='flex flex-col gap-y-3'>
         <li>
-          <Image className='w-40' src={logo}  alt='logo' />
+          <Image className='w-40' src={Logo}  alt='logo' />
         </li>
         <li>
           <p className=''>Small, artisan label that offers a<br />thoughtfully curated collection of <br />high quality everyday essentials made.</p>

@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 
 export default function Promotion() {
   return (
-    <div className='py-20'>
+    <div className='py-20 '>
       <p className='text-center  text-blue-600 font-bold'>Promotion</p>
       <p className='text-center  text-4xl font-bold py-3 pb-8'>Our Promotions Events</p>
       
@@ -51,10 +51,10 @@ export default function Promotion() {
           {/*div start for 3rd image*/}
           <ul>
           <li>
-        <p className='text-3xl font-bold'>Flex Sweatshirt</p>
+        <p className='pt-4'>Flex Sweatshirt</p>
         </li>
         <li>
-        <span className='line-through'> &#36;100.00</span><span className='font-bold'>  &#36;75.00</span>
+        <span className='line-through'> &#36;100.00</span><span className='font-bold'>      &#36;75.00</span>
         </li>
         </ul>
         <Image src={p2} alt='female1'/>
@@ -68,10 +68,10 @@ export default function Promotion() {
         <div className='bg-gray-200 w-64' >
         <ul>
           <li>
-        <p className='text-3xl font-bold'>Flex Push Button Bomber</p>
+        <p className='pt-4'>Flex Push Button Bomber</p>
         </li>
         <li>
-        <span className='line-through'>&#36;225.00</span><span className='font-bold'>&#36;190.00</span>
+        <span className='line-through'>&#36;225.00</span><span className='font-bold'>        &#36;190.00</span>
         </li>
         </ul>
         <Image src={p3} alt='female1'/>

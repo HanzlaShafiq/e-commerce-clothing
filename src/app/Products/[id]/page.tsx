@@ -1,5 +1,6 @@
 import { Products } from "@/utils/mock"
 import Image from "next/image";
+import AddToCart from "@/components/AddToCart";
 
 import { DiagnosticCategory } from "typescript";
 
@@ -22,6 +23,7 @@ result.map((product)=>(
     Product Detail
     <p>Name {product.name}</p>
   </div>
+  <AddToCart />
  
 
 </div>

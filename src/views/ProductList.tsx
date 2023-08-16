@@ -1,18 +1,20 @@
 import React from 'react'
-import ProductCard from '@/components/layout/ProductCard'
+import ProductCard from '@/components/ProductCard'
 import { Products } from '@/utils/mock'
-import f5 from "/public/f5.png"
-import f3 from "/public/f3.png"
-import f4 from "/public/f4.png"
+
 import { StaticImageData } from 'next/image'
 
 export default function ProductList() {
   const productsChecks= Products.slice(0,3);
 
   return (
-    <div className='flex justify-evenly mt-10'>
+    <div className='py-20'>
+      <section>
+      <p className='text-center  text-blue-600 font-bold'>PRODUCTS</p>
+        <h1 className='text-center  text-4xl font-bold py-3 pb-8'>Check What We Have</h1>
+        </section>
+        <section className='flex justify-center '>
       {
-      
      productsChecks.map((product)=>(
      <ProductCard
       key={product.id} 
@@ -24,6 +26,7 @@ export default function ProductList() {
         id={product.id}
         />
      ))}
+     </section>
     </div>
   )
 }

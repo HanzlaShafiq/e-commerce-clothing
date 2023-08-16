@@ -1,5 +1,5 @@
 import { Products } from "@/utils/mock"
-import ProductCard from "@/components/layout/ProductCard"
+import ProductCard from "@/components/ProductCard"
 import { StaticImageData } from "next/image"
 import { DiagnosticCategory } from "typescript";
 

@@ -7,6 +7,8 @@ import Promotion from '@/views/Promotion'
 import NewsLater from '@/views/NewsLater'
 
 
+
+
 export default function Home() {
   return (
     <div className='px-20'>
@@ -14,6 +16,7 @@ export default function Home() {
    <Promotion />
    <ProductList />
    <NewsLater />
+  
   
     </div>
   )

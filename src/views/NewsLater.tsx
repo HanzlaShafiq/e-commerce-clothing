@@ -12,7 +12,7 @@ export default function  NewsLater() {
     <div className=' sm:flex-col lg:flex-row flex justify-center items-end pt-32 '>
 
       {/* div start for lift side */}
-    <div className='flex justify-center items-center px-7  '>
+    <div className='flex justify-center items-center px-7 py-4  '>
 
     
       <ul>

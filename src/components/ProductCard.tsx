@@ -1,6 +1,8 @@
 import React from 'react'
 import Image, { StaticImageData } from 'next/image'
  import Link from 'next/link';
+import AddToCart from './AddToCart';
+
 
 export default function ProductCard( props:{
   tital: string;
@@ -18,6 +20,7 @@ export default function ProductCard( props:{
         <p className='font-bold text-lg text-slate-500  '>{props.type}</p>
         {/* <p className='text-gray-400 font-bold'> { props.category}</p> */}
       <p className=' text-base font-bold '> &#36; {props.price}</p>
+      
     </div>
     </Link>
   )

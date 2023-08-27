@@ -8,23 +8,23 @@ import { Input } from "@/components/ui/input"
 
 export default function  NewsLater() {
   return (
-    <div>
-    <div className=' sm:flex-col lg:flex-row flex justify-center items-end pt-32 '>
+    <div className='sm:flex-col lg:flex-row'>
+    <div className=' sm:flex-col lg:flex-row flex justify-center items-end pt-32  '>
 
       {/* div start for lift side */}
-    <div className='flex justify-center items-center px-7 py-4  '>
+    <div className=' lg:flex justify-center items-center px-7 w-auto '>
 
     
-      <ul>
-        <li className='font-bold py-3'>Using Good Quality Materials</li>
-        <li>Lorem ipsum dolor sit amt, consectetur adipiscing elit.</li>
-        <li className='font-bold py-3'>Modern Fashion Design</li>
+      <ul className='px-3'>
+        <li className='font-bold py-2'>Using Good Quality Materials</li>
+        <li >Lorem ipsum dolor sit amt, consectetur adipiscing elit.</li>
+        <li className='font-bold py-2'>Modern Fashion Design</li>
         <li>Lorem ipsum dolor sit amt, consectetur adipiscing elit.</li>
       </ul>
       <ul>
-        <li className='font-bold py-3'>100% Handmade Products</li>
+        <li className='font-bold py-2'>100% Handmade Products</li>
         <li>Lorem ipsum dolor sit amt, consectetur adipiscing elit</li>
-        <li className='font-bold py-3'>Discount for Bulk Orders</li>
+        <li className='font-bold py-2'>Discount for Bulk Orders</li>
         <li>Lorem ipsum dolor sit amt, consectetur adipiscing elit.</li>
       </ul>
       
@@ -42,7 +42,7 @@ export default function  NewsLater() {
     <ul className='pt-10 '>
     <li className='flex justify-center items-center'>
     <Image className='h-72 w-auto' src={f1} alt='female'/>
-    <p className='flex-col text-justify  w-72 px-8 leading-loose'>This piece is ethically crafted in our small family-owned workshop in Peru with unmatched attention to detail and care.
+    <p className='flex-col text-justify  px-4 leading-loose'>This piece is ethically crafted in our small family-owned workshop in Peru with unmatched attention to detail and care.
        The Natural color is the actual natural color of the fiber, undyed and 100% traceable. <br />
        <Button className='rounded-none w-24 p-7'><Link href={"/Products"}>See All Products</Link></Button>
        </p>

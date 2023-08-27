@@ -54,7 +54,7 @@ export default function Promotion() {
         <p className='pt-4'>Flex Sweatshirt</p>
         </li>
         <li>
-        <span className='line-through'> &#36;100.00</span><span className='font-bold'>      &#36;75.00</span>
+        <p><span className='font-bold line-through'> &#36;100.00</span> <strong> &#36;75.00</strong> </p>
         </li>
         </ul>
         <Image src={p2} alt='female1'/>
@@ -71,7 +71,7 @@ export default function Promotion() {
         <p className='pt-4'>Flex Push Button Bomber</p>
         </li>
         <li>
-        <span className='line-through'>&#36;225.00</span><span className='font-bold'>        &#36;190.00</span>
+       <p> <span className='line-through'>&#36;225.00</span><strong> &#36;190.00 </strong></p>
         </li>
         </ul>
         <Image src={p3} alt='female1'/>

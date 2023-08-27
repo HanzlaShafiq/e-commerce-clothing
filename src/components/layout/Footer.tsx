@@ -47,7 +47,7 @@ function Footer() {
       </div>
       <div>
       <hr className='border-black'/>
-      <ul className='flex justify-center items-center text-end gap-32 my-10'>
+      <ul className='lg:flex justify-center items-center text-end gap-32 my-10 '>
         <li>
         <p>Copyright &copy; 2022 <strong> Dine Market</strong></p>
         </li>
